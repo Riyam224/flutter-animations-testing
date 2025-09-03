@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:trip_animation/home.dart';
 
 void main() {
-  runApp(const TripApp());
+  runApp(const AnimatedTestingApp());
 }
 
-class TripApp extends StatelessWidget {
-  const TripApp({super.key});
+class AnimatedTestingApp extends StatelessWidget {
+  const AnimatedTestingApp({super.key});
 
   @override
   Widget build(BuildContext context) {
